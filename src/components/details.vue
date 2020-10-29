@@ -16,7 +16,7 @@
             </header>
             <div v-if="data" class="detail">
                 <div class="cpic">
-                    <img v-lazy.container="'http://127.0.0.1:4000/'+data.cpic">
+                    <img v-lazy.container="'http://www.xp521.xyz:4000/'+data.cpic">
                 </div>
                 <div class="info">
                     <h1 class="cname"><i>{{data.cname}}</i></h1>

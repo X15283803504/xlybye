@@ -20,7 +20,7 @@
                     <p><span>kiss米兰蛋糕小店 >></span><span>交易成功</span></p>
                     <div class="info">
                         <div class="pic">
-                            <img v-lazy.container="'http://127.0.0.1:4000/'+item.cpic">
+                            <img v-lazy.container="'http://www.xp521.xyz:4000/'+item.cpic">
                         </div>
                         <div class="detail">
                             <p>{{item.cname}}</p>

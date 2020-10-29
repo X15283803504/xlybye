@@ -4,8 +4,9 @@ import router from './router'
 import store from './store'
 import axios from "axios";
 // 配置axios基础路径
-axios.defaults.baseURL="http://127.0.0.1:4000/"
-// axios.defaults.baseURL="http://www.xp521.xyz:4000/"
+// axios.defaults.baseURL="http://127.0.0.1:4000/";
+axios.defaults.baseURL="http://www.xp521.xyz:4000/";
+// axios.defaults.baseURL="http://localhost:4000/";
 // 配置发送请求保存session信息
 axios.defaults.withCredentials=true;
 // axios.defaults.baseURL="http://192.168.1.4:4000";

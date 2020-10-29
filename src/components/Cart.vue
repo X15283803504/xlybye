@@ -12,7 +12,7 @@
         <div class="content">
             <ul class="cart">
                 <li v-for="(item,i) of list" :key=i :data-item="item">
-                    <img v-lazy.container="'http://127.0.0.1:4000/'+item.cpic">
+                    <img v-lazy.container="'http://www.xp521.xyz:4000/'+item.cpic">
                     <p>
                         {{item.cname}}
                         <br>

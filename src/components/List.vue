@@ -27,7 +27,7 @@
             <ul class="list">
                 <li v-for="(item,i) of list" :key="i">
                     <a @click="toDetail(item.id)">
-                        <div class="imgs"><img v-lazy.container="'http://127.0.0.1:4000/'+item.cpic"></div>
+                        <div class="imgs"><img v-lazy.container="'http://www.xp521.xyz:4000/'+item.cpic"></div>
                         <p class="name">{{item.cname}}</p>
                     </a>
                     <p class="price">

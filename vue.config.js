@@ -4,6 +4,11 @@ module.exports={
       config.plugins.delete("prefetch")
     },
     devServer: {
-      disableHostCheck: true
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+      },
+      hotOnly: false,
+      disableHostCheck: true,
+      port: 8000,
     }
 }
